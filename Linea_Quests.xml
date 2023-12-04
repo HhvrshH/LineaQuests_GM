@@ -498,7 +498,7 @@
       _set_goto_label("review_intract")!
       section_end()!
 
-      section_start("", 930000339)!
+      section_start("", 130148380)!
       /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3F1ZXN0X2xpbmt9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlJlZmVycmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       RS("quest_link", false, false)!
       RESOURCE_856361 = _result().get()
@@ -748,6 +748,15 @@
       })!
       section_end()!
 
+      section_start("", 336449364)!
+      /*Dat:eyJzIjoiZm9jdXMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOltdLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+ICNyc28gPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gI3JzbyA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpIiwiY3NzMyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gLk1qall1ZCA+IC5nID4gLk41NFBOYiA+IC5qR0dRNWUgPiAueXVSVWJmID4gOm50aC1jaGlsZCgxKSIsImN1cnJlbnQiOiJtYXRjaCIsIm1hdGNoIjoiPk1BVENIPlJldmlldyB5IiwieHBhdGgiOiIgPlhQQVRIPiBpZChcInJzb1wiKS9kaXZbQGNsYXNzPVwiaGxjdzBjXCJdL2RpdltAY2xhc3M9XCJNampZdWRcIl0vZGl2W0BjbGFzcz1cImcgV3c0RkZiIHZ0NmF6ZCB0RjJDeGMgYXNFQkVjXCJdL2RpdltAY2xhc3M9XCJONTRQTmIgQlRvaU5jIGN2UDJDZVwiXS9kaXZbQGNsYXNzPVwia2IwUEJkIGN2UDJDZSBqR0dRNWVcIl0vZGl2W0BjbGFzcz1cInl1UlViZlwiXS9kaXZbMV0iLCJhdCI6IjI5OCwgMzE0Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+      /*Browser*/
+      _SELECTOR = "\u003eMATCH\u003eReview y";waiter_timeout_next(1000)
+      waiter_nofail_next();
+      wait_element(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).nowait().focus()!
+      section_end()!
+
       section_start("", 476221146)!
       /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiMTAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTcGVlZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkdyYXZpdHkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjYiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiRGV2aWF0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyLjUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gOm50aC1jaGlsZCg1KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMikgPiBzcGFuIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gOm50aC1jaGlsZCg1KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMikgPiBzcGFuIiwiY3NzMiI6IiIsImNzczMiOiIgPkNTUz4gOm50aC1jaGlsZCg1KSA+IC5tYi0zID4gLlxcNUYgdGFza19jb250YWluZXJfaHR6cW1fMSA+IC5cXDVGIHRhc2tfaGVhZGVyX2h0enFtXzUzID4gLlxcNUYgdGFza19oZWFkZXJfY29udGVudF9odHpxbV82MSA+IHNwYW4iLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5SZXZpZXcgeSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJyb290LWNvbnRhaW5lclwiKS9kaXZbMV0vZGl2WzJdL2RpdltAY2xhc3M9XCJjb250YWluZXIgbXQtNCBtdC1zbS01XCJdL2RpdltAY2xhc3M9XCJyb3cganVzdGlmeS1jb250ZW50LWNlbnRlclwiXS9kaXZbQGNsYXNzPVwiY29sLTEyIGNvbC1tZC0xMiBweC0yIHB4LXNtLTNcIl0vc2VjdGlvbltAY2xhc3M9XCJfY29udGFpbmVyX2k0cGJhXzFcIl0vc2VjdGlvbls0XS9zcGFuWzRdL2RpdltAY2xhc3M9XCJtYi0zXCJdL3NlY3Rpb25bQGNsYXNzPVwiX3Rhc2tfY29udGFpbmVyX2h0enFtXzFcIl0vc2VjdGlvbltAY2xhc3M9XCJfdGFza19oZWFkZXJfaHR6cW1fNTNcIl0vc2VjdGlvbltAY2xhc3M9XCJfdGFza19oZWFkZXJfY29udGVudF9odHpxbV82MVwiXS9zcGFuWzFdIiwiYXQiOiI2MzMsIDE3NTYiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
       /*Browser*/
@@ -856,6 +865,11 @@
       })!
       section_end()!
 
+      section_start("", 551824841)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      sleep(500)!
+      section_end()!
+
       section_start("", 487587692)!
       /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiMiIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDQ2KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDMpID4gZGl2IiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gOm50aC1jaGlsZCg0NikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgzKSA+IGRpdiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5idG4iLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD5Xcml0ZSBhICIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJyb290LWNvbnRhaW5lclwiKS9kaXZbMV0vZGl2WzJdL2RpdltAY2xhc3M9XCJjb250YWluZXIgbXQtNCBtdC1zbS01XCJdL2RpdltAY2xhc3M9XCJyb3cganVzdGlmeS1jb250ZW50LWNlbnRlclwiXS9kaXZbQGNsYXNzPVwiY29sLTEyIGNvbC1tZC0xMiBweC0yIHB4LXNtLTNcIl0vc2VjdGlvbltAY2xhc3M9XCJfY29udGFpbmVyX2k0cGJhXzFcIl0vZGl2W0BjbGFzcz1cInF1ZXN0LW92ZXJsYXkgaC0xMDAgZW50ZXJlZFwiXS9kaXZbQGNsYXNzPVwiY29udGFpbmVyIHAtMFwiXS9kaXZbQGNsYXNzPVwicXVlc3QtY29udGVudCBlbnRlcmVkIHB4LTMgcHgtbGctMFwiXS9kaXZbQGNsYXNzPVwicm93IGdhcC1sZy0wIGdhcC00IGp1c3RpZnktY29udGVudC1jZW50ZXJcIl0vZGl2W0BjbGFzcz1cImNvbC0xMiBjb2wtbGctNyBjb2wteHhsLTggaC0xMDAgbXgtMCBweC0wIGQtbGctYmxvY2sgXCJdL2RpdltAY2xhc3M9XCJxdWVzdC1jYXJkLWNvbnRlbnQtYm9keSBwb3NpdGlvbi1yZWxhdGl2ZVwiXS9kaXZbQGNsYXNzPVwiZC1mbGV4IGZsZXgtY29sdW1uICBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyIHctMTAwIGgtMTAwIHRhc2stY2FyZCBweC1sZy00IHBvc2l0aW9uLXJlbGF0aXZlIFwiXS9kaXZbQGNsYXNzPVwic3dpcGVyIHN3aXBlci1pbml0aWFsaXplZCBzd2lwZXItaG9yaXpvbnRhbCBzd2lwZXItcG9pbnRlci1ldmVudHMgc3dpcGVyLXdhdGNoLXByb2dyZXNzIG92ZXJmbG93LWhpZGRlblwiXS9kaXZbQGNsYXNzPVwic3dpcGVyLXdyYXBwZXJcIl0vZGl2W0BjbGFzcz1cInN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtdmlzaWJsZSBzd2lwZXItc2xpZGUtYWN0aXZlXCJdL2RpdltAY2xhc3M9XCJoLTEwMCB3LTEwMCBkLWZsZXgganVzdGlmeS1jb250ZW50LWNlbnRlciBhbGlnbi1pdGVtcy1jZW50ZXIgZmxleC1jb2x1bW4gXCJdL2RpdltAY2xhc3M9XCJkLWZsZXggZmxleC1jb2x1bW4gZm9ybS1pbnB1dC13aWR0aFwiXS9kaXZbQGNsYXNzPVwiYnRuIGJ0bi1zbSBidG4tcHJpbWFyeSBweC00IHB5LTIgZnMtNiBcIl0iLCJhdCI6IjEzMTUsIDE1MTMiLCJ3ZSI6dHJ1ZSwiZmEiOmZhbHNlfX0=*/
       /*Browser*/
@@ -896,6 +910,11 @@
       })!
       section_end()!
 
+      section_start("", 133740959)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      sleep(500)!
+      section_end()!
+
       section_start("", 134035814)!
       /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiMiIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAuY29sLTEyID4gLmFsaWduLWl0ZW1zLWNlbnRlciA+IDpudGgtY2hpbGQoMikgPiAuXFw1RiBidXR0b25fZWhhbzJfMSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDIpID4gYnV0dG9uIiwiY3NzMiI6IiIsImNzczMiOiIgPkNTUz4gLmNvbC0xMiA+IC5hbGlnbi1pdGVtcy1jZW50ZXIgPiA6bnRoLWNoaWxkKDIpID4gLlxcNUYgYnV0dG9uX2VoYW8yXzEiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGJ1dHRvbiBjbGFzcz1cIl9idXR0b25fZWhhbzJfMVwiIHN0eWxlPVwiYiIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJyb290LWNvbnRhaW5lclwiKS9kaXZbMV0vZGl2WzJdL2RpdltAY2xhc3M9XCJjb250YWluZXIgbXQtNCBtdC1zbS01XCJdL2RpdltAY2xhc3M9XCJyb3cganVzdGlmeS1jb250ZW50LWNlbnRlclwiXS9kaXZbQGNsYXNzPVwiY29sLTEyIGNvbC1tZC0xMiBweC0yIHB4LXNtLTNcIl0vc2VjdGlvbltAY2xhc3M9XCJfY29udGFpbmVyX2k0cGJhXzFcIl0vZGl2W0BjbGFzcz1cInF1ZXN0LW92ZXJsYXkgaC0xMDAgZW50ZXJlZFwiXS9kaXZbQGNsYXNzPVwidy0xMDAgcXVlc3QtbmF2aWdhdGlvbiBlbnRlcmVkIHBlLWxnLTUgcGUtMCBcIl0vZGl2W0BjbGFzcz1cImNvbnRhaW5lciBwLTAgaC0xMDBcIl0vZGl2W0BjbGFzcz1cInJvdyBoLTEwMCBhbGlnbi1pdGVtcy1jZW50ZXIganVzdGlmeS1jb250ZW50LWNlbnRlciBcIl0vZGl2W0BjbGFzcz1cImNvbC0xMiAgXCJdL2RpdltAY2xhc3M9XCJkLWZsZXggYWxpZ24taXRlbXMtY2VudGVyIGp1c3RpZnktY29udGVudC1lbmQgZ2FwLXNtLTMgZ2FwLTJcIl0vZGl2W0BjbGFzcz1cImQtZmxleCBcIl0vYnV0dG9uW0BjbGFzcz1cIl9idXR0b25fZWhhbzJfMVwiXSIsImF0IjoiMTU4NCwgMjI0MyIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
       /*Browser*/
@@ -908,6 +927,11 @@
       _call(_clarify, {} )!
       mouse(X,Y)!
       })!
+      section_end()!
+
+      section_start("", 767232474)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      sleep(500)!
       section_end()!
 
       section_start("", 785583278)!
@@ -3395,7 +3419,7 @@ No</Values>
           <Defaults/>
           <Model>
                <Name>claim</Name>
-               <Description en="Task Claim" ru="Task Claim"/>
+               <Description en="Tasks Claim" ru="Tasks Claim"/>
                <SectionName en="Script Setup" ru="Script Setup"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -3582,14 +3606,14 @@ Custom Refferal</Values>
                <Name>quest_link</Name>
                <Description en="Link to current Quest" ru="Link to current Quest"/>
                <SectionName en="Script Setup" ru="Script Setup"/>
-               <VisibilityConditionValue>Yes</VisibilityConditionValue>
-               <VisibilityConditionVariable>review,claim</VisibilityConditionVariable>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
                <IsAdvanced>0</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedString</AllowedTypes>
-               <Value>https://www.intract.io/linea/quest/654a0e8e95c012164b1f1683</Value>
+               <Value></Value>
                <NotEmpty>0</NotEmpty>
           </Model>
           <Defaults/>
