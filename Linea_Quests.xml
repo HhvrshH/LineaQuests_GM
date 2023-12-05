@@ -2820,11 +2820,6 @@
             logger_log({"color": ("cyan"), "en": ("Start work with ETH: " + VAR_ETH + " | " + VAR_PROXY), "level": ("info"), "ru": ("Start work with ETH: " + VAR_ETH + " | " + VAR_PROXY)})
             section_end()!
 
-            section_start("", 327621178)!
-            /*Dat:eyJzIjoiY29udGludWUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOltdfQ==*/
-            _next("function")
-            section_end()!
-
             section_start("", 908354825)!
             /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3N0cmVha319ID09IFwiWWVzXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
             RS("streak", false, false)!
